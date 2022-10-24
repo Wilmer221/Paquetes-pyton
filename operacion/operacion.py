@@ -1,5 +1,5 @@
 def operacion(x, y):
-    tipo = input("Digite el tipo de operacion a ejecutar: suma, resta, multiplicacion,divicion")
+    tipo = input("Digite el tipo de operacion a ejecutar: [suma], [resta], [multiplicacion],[divicion]")
     if tipo == "suma":
         print("suma de números")
         result = x + y
